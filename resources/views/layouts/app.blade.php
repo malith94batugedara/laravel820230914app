@@ -14,6 +14,7 @@
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link href="{{ asset('assets/css/styles.css') }}" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
@@ -79,5 +80,8 @@
             @yield('content')
         </main>
     </div>
+    <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}" crossorigin="anonymous"></script>
+    <script src="{{ asset('assets/js/scripts.js') }}"></script>
+
 </body>
 </html>
